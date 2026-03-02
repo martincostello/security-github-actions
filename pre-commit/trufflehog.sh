@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # renovate: datasource=docker depName=trufflesecurity/trufflehog
-TRUFFLEHOG_DEFAULT_VERSION="3.88.29@sha256:6375b4dd7d045656bf78f52ac5a6e992eff344da9def96f0953cda26f791ffb7"
+TRUFFLEHOG_DEFAULT_VERSION="3.93.6@sha256:82df2d2cfb10208ad4a3cb20b81073acf053beedfa7cce75e6159a21d6980c08"
 TRUFFLEHOG_VERSION="${TRUFFLEHOG_VERSION:-${TRUFFLEHOG_DEFAULT_VERSION}}"
 
 docker \
